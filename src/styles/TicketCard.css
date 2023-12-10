@@ -1,0 +1,47 @@
+.ticket-card {
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+  
+  .ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .ticket-id {
+    font-size: 0.85rem;
+    color: #586069;
+  }
+  
+  .tag {
+    color: white;
+    padding: 0.25em 0.6em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 20px;
+  }
+  
+  .tag.feature-request {
+    background-color: #0052cc; /* Adjust the color to match the one from the image */
+  }
+  
+  .ticket-title {
+    font-size: 1rem;
+    color: #24292e;
+    margin-top: 0;
+    word-break: break-word;
+  }
+  
+  /* Add other styles as needed for additional ticket details */
+
+  

@@ -1,0 +1,80 @@
+
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  
+.column {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer; /* Indicate the columns are clickable */
+  }
+  
+.column-header {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.display-controls {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .display-button {
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #d4d4d4; /* Light grey border */
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 10px; /* Space between button and dropdowns */
+    cursor: pointer;
+  }
+  
+  .display-options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .display-options select {
+    margin-right: 10px; /* Space between dropdowns */
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #d4d4d4; /* Light grey border */
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Wrap columns if needed */
+}
+
+.column {
+  background-color: #fff; /* White background */
+  border-radius: 4px;
+  margin: 10px; /* Adjust margin as needed */
+  width: calc(20% - 20px); /* Adjust width as needed, accounting for margin */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.column-header {
+  background-color: #f7f7f7; /* Slightly darker background for the header */
+  border-bottom: 1px solid #ececec; /* Light border for separation */
+  padding: 10px;
+  border-top-left-radius: 4px; /* Rounded corners on the header */
+  border-top-right-radius: 4px;
+  display: flex;
+  justify-content: space-between; /* To push the ticket count to the right */
+  align-items: center;
+  font-weight: bold; /* Make the text bold */
+}
+  
